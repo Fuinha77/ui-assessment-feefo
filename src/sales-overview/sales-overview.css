@@ -1,0 +1,62 @@
+table,
+tr,
+td {
+  background-color: white;
+  width: 50%;
+  border-collapse: collapse;
+  padding-left: 2%;
+}
+
+.salesOverview {
+  font-size: 9pt;
+  color: rgba(127, 127, 127, 255);
+}
+
+.table {
+  width: 25%;
+  text-align: left;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.percentageValue {
+  color: rgba(34, 171, 85, 255);
+  font-size: 25px;
+}
+
+.tdBackground {
+  background-color: rgba(253, 253, 253, 255);
+  border-right: solid 1px;
+}
+
+.successLabels {
+  font-size: 10px;
+  color: gray;
+}
+
+.uploadIcon {
+  color: rgba(62, 176, 235, 255);
+}
+
+.infoCircleIcon {
+  color: lightgray;
+  position: relative;
+  padding-left: 90%;
+  padding-bottom: 15%;
+}
+
+.saleTitle {
+  font-size: 11pt;
+  color: rgba(66, 66, 66, 255);
+}
+
+.trLine {
+  border-top: solid 1px;
+  color: rgba(242,242,242,255);
+}
+
+td:last-child {
+  border-right: none;
+  color: rgba(242,242,242,255);
+}
